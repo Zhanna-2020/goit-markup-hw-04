@@ -41,6 +41,7 @@ ul {
 }
 
 a {
+  display: block;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -142,7 +143,6 @@ img {
 }
 
 .info {
-  color: var(--main-text-color);
   fill: var(--main-text-color);
 }
 
@@ -173,7 +173,7 @@ img {
 }
 
 .header-contacts a:hover,
-.contacts a:focus {
+.header-contacts a:focus {
   color: var(--accent-color);
 }
 
@@ -398,7 +398,7 @@ section .team-member {
 }
 
 .staff .social-link:hover,
-.syaff .social-link:focus {
+.staff .social-link:focus {
   background-color: var(--accent-color);
   fill: var(--light-color);
 }
